@@ -2,6 +2,7 @@
 A simple Python & SQLite ETL pipeline that ingests, cleans, and analyzes public Open LLM evaluation benchmarks from Hugging Face.
 
 📁 Project Structure
+```
 open-llm-metrics-pipeline/
 │
 ├── .gitignore              # Specifies intentionally untracked files to ignore (venv, *.db, cache)
@@ -18,3 +19,4 @@ open-llm-metrics-pipeline/
 │   └── load.py             # SQLite database connection, table creation, and data persistence
 │
 └── main.py                 # Pipeline orchestrator (runs Extract -> Transform -> Load)
+```
